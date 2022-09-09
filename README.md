@@ -59,6 +59,26 @@ The folder structure of this app is explained below:
 | tslint.json              | Config settings for TSLint code style checking                                                |
 
 
+-- The endpoints and their functionalities that you need to create are as follows:
+-- 1) /add -> POST Method -> This route should add the data sent with the request body into the post.json file.
+-- Sample data sent with the request:
+```  {
+    "id": "1",
+    "name": "updated name",
+    "age": "22",
+    "gender": "Male",
+    "email": "userone@gmail.com"
+}
+```
+- If the data is added successfully, then you should sent a response code of 200.
+
+
+Output 
+
+
+
+
+
 
 # Common Issues
 
