@@ -115,6 +115,25 @@ The folder structure of this app is explained below:
 
 ![Alt Text](https://github.com/hrkbrahmbhatt/Assignment4/blob/master/gif2.gif)
 
+- Sample request with query parameter id:
+- /view?id=2
+- Expected response:
+```[ {
+      "id": "2",
+      "name": "user two",
+      "age": "24",
+      "gender": "Female",
+      "email": "usertwo@gmail.com"
+  }] ```
+
+- If the data is fetched successfully, then you should send a response code of 200.
+
+-- Output Here's what it looks like in action. ( Wait for GIF )
+
+
+![Alt Text](https://github.com/hrkbrahmbhatt/Assignment4/blob/master/gif3.gif)
+
+
 
 
 # Common Issues
