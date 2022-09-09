@@ -1,5 +1,6 @@
 # Assignment4
-Express + Node  to get, post and modify user data
+Profile management: Node.js and Express
+
 
 # Environment vars
 This project uses the following environment variables:
@@ -73,7 +74,10 @@ The folder structure of this app is explained below:
 - If the data is added successfully, then you should sent a response code of 200.
 
 
-Output 
+-- Output Here's what it looks like in action. ( Wait for GIF )
+
+
+![Alt Text](https://github.com/hrkbrahmbhatt/WeatherApp/blob/master/gif1.gif)
 
 
 
