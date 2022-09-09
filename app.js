@@ -7,7 +7,7 @@ const users = require("./routes/users");
 app.use(express.json());
 
 //routes
-app.use("/api/v1/users", users); //route
+app.use("/api/v1/users", users);
 
 const port = 3000;
 
