@@ -80,7 +80,40 @@ The folder structure of this app is explained below:
 ![Alt Text](https://github.com/hrkbrahmbhatt/Assignment4/blob/master/gif1.gif)
 
 
+- 2) /view -> GET Method -> This route has a optional query param called id. If no query param get passed with the request then you should fetch all the data from the get.json file. If some id gets passed with the request query param, then you should send the details0 of the user having id equal to the id that comes with the request query.
 
+- Sample request without query parameter:
+- /view
+
+- Expected response:
+```
+  [ {
+    "id": "1",
+    "name": "updated name",
+    "age": "22",
+    "gender": "Male",
+    "email": "userone@gmail.com"
+  },
+  {
+    "id": "2",
+    "name": "user two",
+    "age": "24",
+    "gender": "Female",
+    "email": "usertwo@gmail.com"
+  },
+  {
+    "id": "3",
+    "name": "user three",
+    "age": "23",
+    "gender": "Male",
+    "email": "userthree@gmail.com"
+  } ]
+  ```
+
+-- Output Here's what it looks like in action. ( Wait for GIF )
+
+
+![Alt Text](https://github.com/hrkbrahmbhatt/Assignment4/blob/master/gif2.gif)
 
 
 
