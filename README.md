@@ -136,6 +136,21 @@ The folder structure of this app is explained below:
 ![Alt Text](https://github.com/hrkbrahmbhatt/Assignment4/blob/master/gif3.gif)
 
 
+- 3) /edit/:id -> PATCH Method -> This route should update the values of the of the user having id in post.json equal to the id that comes with the request URL. You can update name, age and email of a user.
+- Sample request: 
+- /edit/3
+- Sample data sent with the request:
+```{
+    "name": "updated name"
+}
+```
+ Output Here's what it looks like in action. ( Wait for GIF )
+
+
+![Alt Text](https://github.com/hrkbrahmbhatt/Assignment4/blob/master/gif4.gif)
+
+This request should update the name of the user having id 3 in post.json as updated name.
+If the data is updated successfully, then you should send a status code of 200.
 
 
 # Common Issues
