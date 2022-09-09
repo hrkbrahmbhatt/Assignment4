@@ -125,7 +125,8 @@ The folder structure of this app is explained below:
       "age": "24",
       "gender": "Female",
       "email": "usertwo@gmail.com"
-  }] ```
+      }]
+  ```
 
 - If the data is fetched successfully, then you should send a response code of 200.
 
