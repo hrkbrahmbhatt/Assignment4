@@ -118,6 +118,7 @@ The folder structure of this app is explained below:
 - Sample request with query parameter id:
 - /view?id=2
 - Expected response:
+
 ```[ {
       "id": "2",
       "name": "user two",
@@ -128,7 +129,7 @@ The folder structure of this app is explained below:
 
 - If the data is fetched successfully, then you should send a response code of 200.
 
--- Output Here's what it looks like in action. ( Wait for GIF )
+- Output Here's what it looks like in action. ( Wait for GIF )
 
 
 ![Alt Text](https://github.com/hrkbrahmbhatt/Assignment4/blob/master/gif3.gif)
